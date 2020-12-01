@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/goin/goin",
+    "pages/shouquan/shouquan",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/users/users",
+    "pages/content/content",
+    "pages/indexchild/get/get",
+    "pages/indexchild/post/post",
+    "pages/indexchild/add/add",
+    "pages/indexchild/xiexin/xiexin",
+    "pages/indexchild/select/select",
+    "pages/indexchild/success/success"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "信中日月长",
+    "navigationBarTextStyle":"black"
+  },
+"tabBar": {
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "漂流信件",
+      "iconPath": "/icon1/feiji.png",
+      "selectedIconPath": "/icon1/feiji.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "小宇宙",
+      "iconPath": "/icon1/yuzhou.png",
+      "selectedIconPath": "/icon1/yuzhou.png"
+    },
+    {
+      "pagePath": "pages/content/content",
+      "text": "交友圈子",
+      "iconPath": "/icon1/quanzi.png",
+      "selectedIconPath": "/icon1/quanzi.png"
+    },
+    {
+      "pagePath": "pages/users/users",
+      "text": "我的",
+      "iconPath": "/icon1/my.png",
+      "selectedIconPath": "/icon1/my.png"
+    }
+  ]
+},
+"style": "v2",
+"sitemapLocation": "sitemap.json"
+}

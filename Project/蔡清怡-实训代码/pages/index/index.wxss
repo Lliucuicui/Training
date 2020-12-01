@@ -1,0 +1,84 @@
+/**index.wxss**/
+.swiper {
+  height: 400rpx;
+  width: 100%;
+  border:2px solid lightgray;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+  opacity: 0.8;
+}
+.tex{
+  height:50px;
+  width:100%;
+  position: sticky;
+  color:white;
+  background-color: rgba(255,255,255,0.3);
+  z-index: 1;
+  text-align: center;
+  line-height: 50px;
+  margin-top:120px;
+}
+.get{
+  height:70px;
+  width:49%;
+  border:1.5px solid lightgray;
+  float:left;
+  text-align: right;
+  line-height: 70px;
+  font-size: large;
+}
+.btn{
+  margin-right:7px;
+}
+.touxiang1{
+  height:60px;
+  width:20%;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 4ex;
+  position:absolute;
+  background: url(https://s3.ax1x.com/2020/11/30/D2Fvr9.jpg) no-repeat center center;
+  background-size: cover;
+}
+.post{
+  height:70px;
+  width:49%;
+  border:1.5px solid lightgray;
+  display: inline-block;
+  text-align: right;
+  line-height: 70px;
+  font-size: large;
+  
+}
+.touxiang2{
+  height:60px;
+  width:20%;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 4ex;
+  position:absolute;
+  background: url(https://s3.ax1x.com/2020/11/30/D2kF2D.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* 滚动信件 */
+.xin{
+  width: 50%;
+  height: 100px;
+  background-color: lightgrey;
+}
+
+.tianjia{
+  height:80px;
+  width:80px;
+  position:absolute;
+  margin-top:120px;
+  margin-left:232px;
+  background:url(https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1367952809,3942638029&fm=26&gp=0.jpg) no-repeat center center;
+  background-size: cover;
+  border-radius: 6ex;
+  opacity: 0.6;
+}

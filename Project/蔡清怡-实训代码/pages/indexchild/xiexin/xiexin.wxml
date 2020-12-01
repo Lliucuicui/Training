@@ -1,0 +1,10 @@
+<!--pages/indexchild/xiexin/xiexin.wxml-->
+<view class="xinfeng">
+  <view class="tb1"></view>
+  <view class="selec">选一个你中意的信封吧</view>
+</view>
+<view class="youpiao">
+  <view class="tb2"></view>
+  <view class="selec">选一个你中意的邮票吧</view>
+</view>
+<button type="submit" class="start" bindtap="gotoPage6">开启漂流之旅</button>

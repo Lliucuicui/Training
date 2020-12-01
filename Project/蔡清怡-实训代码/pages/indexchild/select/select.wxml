@@ -1,0 +1,10 @@
+<!--pages/indexchild/select/select.wxml-->
+<view class="xinzhi">
+  <view class="tb3"></view>
+  <view class="selec">选一个你中意的信纸吧</view>
+</view>
+<view class="ziti">
+  <view class="tb4"></view>
+  <view class="selec">选一款你中意的字体吧</view>
+</view>
+<button type="submit" class="start" bindtap="gotoPage4">开始写信</button>

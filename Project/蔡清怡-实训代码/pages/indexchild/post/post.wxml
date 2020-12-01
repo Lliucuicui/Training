@@ -1,0 +1,2 @@
+<!--pages/indexchild/post/post.wxml-->
+<view class="box">我寄出的信</view>

@@ -1,0 +1,25 @@
+<!--index.wxml-->  
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+      <block wx:for="{{movies}}" wx:for-index="index">  
+        <swiper-item>  
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+          <view class = "tex">我们大笑着，可怕的事物就消失了</view>
+        </swiper-item>  
+      </block>  
+</swiper>  
+<view class="get">
+  <view class="touxiang1"></view>
+  <view class="btn" bindtap="gotoPage1" type="submit" >我收到的</view>
+</view>
+<view class="post">
+  <view class="touxiang2"></view>
+  <view class="btn" bindtap="gotoPage2" type="submit" >我寄出的</view>
+</view>
+
+<view class="tianjia" bindtap="gotoPage3" type="submit"></view>
+<!-- 信件列表 -->
+<scroll-view class="xin">
+  <view class="image"></view>
+  <view class="title"></view>
+</scroll-view>
+

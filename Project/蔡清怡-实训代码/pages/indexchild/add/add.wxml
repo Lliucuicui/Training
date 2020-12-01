@@ -1,0 +1,12 @@
+<!-- <view class="text">赶赴一场时光的约定，不曾失约;只是不知应该赴约而来的人，是否会依约而至。</view> -->
+<view class="text">
+<view>只有</view>   
+<view>面对陌生人的时候</view>   
+<view>我才不用假装</view>
+</view>
+<view class="container">
+  <textarea class="textarea-text" bindinput="getTextarea" name="xinjian">
+    </textarea>
+  <button type="submit" class="btn1" bindtap="gotoPage5">书写完成</button>
+  </view>
+  
